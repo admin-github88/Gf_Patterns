@@ -1,5 +1,4 @@
-# Gf-Patterns V 1.9
-
+# Gf-Patterns V 1.22.4
 ## [GF](https://github.com/anandpathak1/gf)
 A wrapper around grep, to help you grep for things 
 
