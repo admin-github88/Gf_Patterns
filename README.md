@@ -12,16 +12,16 @@ If you've got Go installed and configured you can install `waybackurls & Gf` wit
 
 ```bash 
 
-▶ go get -u github.com/tomnomnom/waybackurls
+ go get -u github.com/tomnomnom/waybackurls
 ```
 ```bash
-▶ go get -u github.com/tomnomnom/gf
+ go get -u github.com/tomnomnom/gf
 ```
 
 If you've installed using `go get`, you can enable auto-completion to your `.bashrc` like this:
 
 ```bash
-▶ echo 'source $GOPATH/src/github.com/tomnomnom/gf/gf-completion.bash' >> ~/.bashrc
+ echo 'source $GOPATH/src/github.com/tomnomnom/gf/gf-completion.bash' >> ~/.bashrc
 ```
 
 Note that you'll have to restart your terminal, or run `source ~/.bashrc` for the changes to
