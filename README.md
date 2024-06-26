@@ -9,10 +9,10 @@ A wrapper around grep, to help you grep for things
 If you've got Go installed and configured you can install `waybackurls & Gf` with:
 
 ```bash
-go install -v github.com/anandpathak1/waybackurls-2024@latest
+go install -v github.com/anandpathak1/waybackurls@latest
 ```
 ```bash
-go install -v github.com/anandpathak1/gf-2024@latest
+go install -v github.com/anandpathak1/gf@latest
 ```
 
 ```bash
@@ -23,7 +23,7 @@ mkdir .gf
 ```
 **MY Gf Patterns installation**
 ```bash
-https://github.com/anandpathak1/Gf_Patterns-2024
+https://github.com/anandpathak1/Gf_Patterns
 ```
 
 To get started quickly, you can copy the example pattern files to `~/.gf` like this:
