@@ -29,29 +29,29 @@ take effect.
 
 To get started quickly, you can copy the example pattern files to `~/.gf` like this:
 ```bash
-▶ mkdir .gf
+ mkdir .gf
 ```
 ```bash
-▶ cp -r $GOPATH/src/github.com/tomnomnom/gf/examples ~/.gf
+ cp -r $GOPATH/src/github.com/tomnomnom/gf/examples ~/.gf
 ```
 **MY Gf Patterns installation**
 ```bash
-▶ git clone https://github.com/1ndianl33t/Gf-Patterns
+https://github.com/anandpathak1/GF
 ```
 
 To get started quickly, you can copy the example pattern files to `~/.gf` like this:
 ```bash
-▶ mkdir .gf
+ mkdir .gf
 ```
 ```bash
-▶ mv ~/Gf-Patterns/*.json ~/.gf
+ mv ~/Gf-Patterns/*.json ~/.gf
 ```
 **Use example**
 ```bash
 
-▶ cat subdomains.txt | waybackurls | sort -u >> waybackdata | gf ssrf | tee -a ssfrparams.txt
+ cat subdomains.txt | waybackurls | sort -u >> waybackdata | gf ssrf | tee -a ssfrparams.txt
 
-▶ cat waybackdata | gf redirect | tee -a redirect.txt
+ cat waybackdata | gf redirect | tee -a redirect.txt
 ```
 ### Pattern Files
 
@@ -60,7 +60,7 @@ The pattern definitions are stored in `~/.gf` as little JSON files that can be k
 **gf ssrf**
 
 ```bash
-▶ cat ~/.gf/ssrf.json
+ cat ~/.gf/ssrf.json
 
 {
     "flags": "-iE",
@@ -337,26 +337,3 @@ The pattern definitions are stored in `~/.gf` as little JSON files that can be k
 }
 ```
 
-### Donations
-You can encourage me to contribute more to the open source with donations.
-
-- Paypal - [https://www.paypal.me/1ndianl33t](https://www.paypal.me/1ndianl33t)
-
-- GooglePay,Paytm -
-
-`8085778875`
-
-
-# Credit
-
-[![Twitter](https://img.shields.io/badge/twitter-@TomNomNom-blue.svg)](https://twitter.com/TomNomNom)
-[Bugcrowd HUNT](https://github.com/bugcrowd/HUNT)
-[![Twitter](https://img.shields.io/badge/twitter-@1ndianl33t-blue.svg)](https://twitter.com/1ndianl33t)
-
-# Contributers
-@victoni `added more redirect parameters`
-
-@s0meguy1 `redirect & ssrf pattern Added additional filters`
-
-# Contact
-[![Twitter](https://img.shields.io/badge/twitter-@1ndianl33t-blue.svg)](https://twitter.com/1ndianl33t)
