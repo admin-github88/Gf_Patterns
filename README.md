@@ -9,31 +9,21 @@ A wrapper around grep, to help you grep for things
 If you've got Go installed and configured you can install `waybackurls & Gf` with:
 
 ```bash
-go install -v github.com/anandpathak1/waybackurls@latest
+go install -v github.com/anandpathak1/waybackurls-2024@latest
 ```
 ```bash
-go install -v github.com/anandpathak1/gf@latest
+go install -v github.com/anandpathak1/gf-2024@latest
 ```
 
-If you've installed using `go get`, you can enable auto-completion to your `.bashrc` like this:
-
-```bash
-echo 'source $GOPATH/src/github.com/anandpathak1/gf/gf-completion.bash' >> ~/.bashrc
-```
-
-Note that you'll have to restart your terminal, or run `source ~/.bashrc` for the changes to
-take effect.
-
-To get started quickly, you can copy the example pattern files to `~/.gf` like this:
 ```bash
 mkdir .gf
 ```
 ```bash
-cp -r $GOPATH/src/github.com/anandpathak1/gf/examples ~/.gf
+
 ```
 **MY Gf Patterns installation**
 ```bash
-https://github.com/anandpathak1/Gf_Patterns
+https://github.com/anandpathak1/Gf_Patterns-2024
 ```
 
 To get started quickly, you can copy the example pattern files to `~/.gf` like this:
