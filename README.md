@@ -1,7 +1,6 @@
 # Gf-Patterns V 1.9
 
-## [GF](https://github.com/tomnomnom/gf) By [![Twitter](https://img.shields.io/badge/twitter-@TomNomNom-blue.svg)](https://twitter.com/TomNomNom) 
-
+## [GF](https://github.com/anandpathak1/gf)
 A wrapper around grep, to help you grep for things 
 
 # installation
@@ -12,16 +11,16 @@ If you've got Go installed and configured you can install `waybackurls & Gf` wit
 
 ```bash 
 
- go get -u github.com/tomnomnom/waybackurls
+ go install -v github.com/anandpathak1/waybackurls@latest
 ```
 ```bash
- go get -u github.com/tomnomnom/gf
+ go install -v github.com/anandpathak1/gf@latest
 ```
 
 If you've installed using `go get`, you can enable auto-completion to your `.bashrc` like this:
 
 ```bash
- echo 'source $GOPATH/src/github.com/tomnomnom/gf/gf-completion.bash' >> ~/.bashrc
+ echo 'source $GOPATH/src/github.com/anandpathak1/gf/gf-completion.bash' >> ~/.bashrc
 ```
 
 Note that you'll have to restart your terminal, or run `source ~/.bashrc` for the changes to
@@ -32,7 +31,7 @@ To get started quickly, you can copy the example pattern files to `~/.gf` like t
  mkdir .gf
 ```
 ```bash
- cp -r $GOPATH/src/github.com/tomnomnom/gf/examples ~/.gf
+ cp -r $GOPATH/src/github.com/anandpathak1/gf/examples ~/.gf
 ```
 **MY Gf Patterns installation**
 ```bash
